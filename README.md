@@ -1,4 +1,4 @@
-# Tagallbot
+# Etiket bot
 telegram etiket bot 
 
 

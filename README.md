@@ -1,5 +1,5 @@
 # Tagallbot
-telegram telegramtagallbot
+telegram etiket bot 
 
 
 ## Dᴇᴘᴏʏ Tᴏ Hᴇʀᴏᴋᴜ

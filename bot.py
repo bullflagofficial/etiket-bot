@@ -21,36 +21,32 @@ spam_chats = []
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
   await event.reply(
-"""Etiket Botumuz Suanda Aktif @sohbetf
-Merhaba Botu Gruplarınıza Ekleyin ! Reklam vermek icin yazın
-*𝐇𝐄𝐘! ,*
-┏━━━━━━━━━━━━━━━━
-┣ ₪ *Gruba Ekleyin Boş Yetki Vermeniz Yeterli* `
-┣ ₪ Komut : @all : Tüm kişileri etiketler ve /cancel
-┗━━━━━━━━━━━━━━━━━
+"""Welcome to Wallet Ai Mention Bot 
+
+Hey! I can help notify everyone 📢 in the group when someone needs them.
  
-  ʜɪᴛ /help **yardim için /help yaz**
+  Hit /help For More
  [❤](https://telegra.ph/file/2fa3a833f3ccc1d98dba1.jpg),
 """,
     link_preview=False,
     buttons=(
        [
-        Button.url(' support', 'https://t.me/sohbetf'),
-        Button.url('iletisim', 'https://t.me/sohbetf')
+        Button.url('Add', 'https://t.me/walletaimentionbot?startgroup'),
+        Button.url('Buy Wallet ai ', 'https://pancakeswap.finance')
     ],
     )
   )
 
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "COMMANDS:@all,/cancel. @sohbetf @all : Tüm Kisileri Etiketler. /cancel : durdur @sohbetf"
+  helptext = "Commands : @all,/cancel. Example @all : Somthing big is comming. /cancel :Somthing big is comming. "
   await event.reply(
     helptext,
     link_preview=False,
     buttons=(
       [
-        Button.url(' support', 'https://t.me/sohbetf'),
-        Button.url('iletisim', 'https://t.me/sohbetf')
+        Button.url('Add', 'https://t.me/walletaimentionbot?startgroup'),
+        Button.url('Buy Wallet ai ', 'https://pancakeswap.finance')
       ]
     )
   )

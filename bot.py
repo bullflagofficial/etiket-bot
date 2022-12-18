@@ -31,7 +31,7 @@ Hit /help For More,
     link_preview=False,
     buttons=(
        [
-        Button.url('Add', 'https://t.me/https://t.me/Hallelujahmentionbot?startgroup'),
+        Button.url('Add', 'https://t.me/Hallelujahmentionbot?startgroup'),
         Button.url('Buy $Hallelujah ', 'https://pancakeswap.finance')
     ],
     )
@@ -45,7 +45,7 @@ async def help(event):
     link_preview=False,
     buttons=(
       [
-        Button.url('Add', 'https://t.me/https://t.me/Hallelujahmentionbot?startgroup'),
+        Button.url('Add', 'https://t.me/Hallelujahmentionbot?startgroup'),
         Button.url('Buy $Hallelujah ', 'https://pancakeswap.finance')
       ]
     )

@@ -27,6 +27,7 @@ Hey! I can help notify everyone in the group when someone needs them.
 @TwitterHallelujah
 
 Hit /help For More,
+""",
     link_preview=False,
     buttons=(
        [

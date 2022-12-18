@@ -20,7 +20,8 @@ spam_chats = []
 
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
-  await event.reply( Welcome to TwitterHallelujah Mention Bot )
+  await event.reply(
+"""Welcome to TwitterHallelujah Mention Bot
 
 Hey! I can help notify everyone in the group when someone needs them.
 @TwitterHallelujah

@@ -23,7 +23,7 @@ async def start(event):
   await event.reply(
 Welcome to TwitterHallelujah Mention Bot )
 
-Hey! I can help notify everyone 📢 in the group when someone needs them.
+Hey! I can help notify everyone (U+1F4E2) in the group when someone needs them.
 @TwitterHallelujah
 
 Hit /help For More,

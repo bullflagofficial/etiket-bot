@@ -24,15 +24,14 @@ async def start(event):
 """Welcome to Wallet Ai Mention Bot 
 
 Hey! I can help notify everyone 📢 in the group when someone needs them.
- 
-  Hit /help For More
- [❤](https://telegra.ph/file/2fa3a833f3ccc1d98dba1.jpg),
-""",
+@TwitterHallelujah
+
+Hit /help For More,
     link_preview=False,
     buttons=(
        [
-        Button.url('Add', 'https://t.me/walletaimentionbot?startgroup'),
-        Button.url('Buy Wallet ai ', 'https://pancakeswap.finance')
+        Button.url('Add', 'https://t.me/https://t.me/Hallelujahmentionbot?startgroup'),
+        Button.url('Buy $Hallelujah ', 'https://pancakeswap.finance')
     ],
     )
   )
@@ -45,8 +44,8 @@ async def help(event):
     link_preview=False,
     buttons=(
       [
-        Button.url('Add', 'https://t.me/walletaimentionbot?startgroup'),
-        Button.url('Buy Wallet ai ', 'https://pancakeswap.finance')
+        Button.url('Add', 'https://t.me/https://t.me/Hallelujahmentionbot?startgroup'),
+        Button.url('Buy $Hallelujah ', 'https://pancakeswap.finance')
       ]
     )
   )
